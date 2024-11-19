@@ -1,0 +1,49 @@
+---
+import Discord from "../icons/Discord.astro";
+import Notifications from "../icons/Notifications.astro";
+---
+
+<section
+  class="flex items-center justify-center h-screen border-b border-white/10"
+>
+  <div
+    class="flex flex-col items-center max-w-5xl gap-10 p-4 mx-auto md:flex-row"
+  >
+    <img
+      src="/gw-ico.webp"
+      alt="gw_icon"
+      class="rounded-full w-[200px] h-auto md:w-72 md:h-72"
+    />
+    <div class="space-y-5">
+      <h2
+        class="text-5xl font-extrabold text-center text-transparent md:text-6xl md:text-start bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text"
+      >
+        Gatitos World
+      </h2>
+      <p class="text-lg text-center opacity-50 md:text-start">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt
+        saepe sint neque vel beatae nostrum recusandae enim rerum! Ipsam dolorem
+        omnis repellendus rem sed aspernatur voluptate, assumenda laborum
+        expedita.
+      </p>
+      <div class="flex flex-col gap-4 sm:flex-row">
+        <a
+          href=""
+          class="inline-flex items-center justify-center w-full p-2 text-lg font-medium text-center transition-opacity rounded gap-x-1 hover:opacity-80 bg-gradient-to-r from-purple-500 to-cyan-500"
+          ><Discord /> Discord</a
+        >
+        <a
+          href=""
+          class="inline-flex items-center justify-center w-full p-2 text-lg font-medium text-center transition-opacity rounded gap-x-1 hover:opacity-80 bg-gradient-to-r from-cyan-500 to-purple-500"
+          ><Notifications /> Normativas</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+<section
+  class="flex items-center justify-center h-screen border-b border-white/10"
+>
+  <h1 class="text-4xl font-bold text-white">Segunda sección</h1>
+</section>
