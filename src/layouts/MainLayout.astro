@@ -15,7 +15,7 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/gw-ico.webp" />
+    <link rel="icon" type="image/svg+xml" href="../../src/gw-icon.webp" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
@@ -43,5 +43,13 @@ const { title } = Astro.props;
       sans-serif;
     background: #101010;
     color-scheme: dark;
+  }
+
+  ::-webkit-scrollbar {
+    background: none;
+    width: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #a855f7, #06b6d4);
   }
 </style>
